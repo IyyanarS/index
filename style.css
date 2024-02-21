@@ -1,0 +1,97 @@
+body{
+    background-color: blue;
+}
+nav{
+    background-color: rgb(2, 2, 14);
+    width: 90%;
+    padding: 30px 60px;
+    height: 30px;
+    position: relative;
+
+}
+ul{
+    list-style: none;
+    width: 70%;
+    margin-left: 20%;
+   
+}
+li{
+    float: left;
+    color: rgb(232, 11, 11);
+    margin:20px;
+    font-size:larger;
+    margin-top: -10px;
+
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+.menu{
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 1100px;
+}
+.img1{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.img2{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.img3{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:475px){
+    body{
+        background-color: red;
+    }
+
+    .img1{
+        width: 500px;
+        height: 300px;
+        margin-top: 50px;
+        
+        display: block;
+    }
+    .img2{
+        width: 500px;
+        height: 300px;
+        margin-top: 70px;
+        
+    }
+    .img3{
+        width: 500px;
+        height: 300px;
+        margin-top: 70px;
+       
+    }
+    li{
+        display: none;
+        
+    }
+    .menu{          
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 80%;
+        display: block;
+    }
+    
+}
