@@ -62,22 +62,23 @@ li{
     body{
         background-color: red;
     }
-
+    div{
+        margin-left: -1px;
+    }
     .img1{
-        width: 420px;
+        width: 95%;
         height: 300px;
         margin-top: 50px;
-        
         display: block;
     }
     .img2{
-        width: 420px;
+        width: 95%;
         height: 300px;
         margin-top: 70px;
         
     }
     .img3{
-        width: 420px;
+        width: 95%;
         height: 300px;
         margin-top: 70px;
        
@@ -89,9 +90,23 @@ li{
     .menu{          
         width: 30px;
         height: 30px;
-        margin-top: 5px;
-        margin-left: 80%;
+        margin-top: -1px;
+        margin-left: 75%;
         display: block;
     }
-    
+    nav{
+        background-color: rgb(3, 62, 135);
+        width: 75%;
+        padding: 30px 60px;
+        height: 30px;
+        position: relative;
+
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -17px;
+    }
 }
